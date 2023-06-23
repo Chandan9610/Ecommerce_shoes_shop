@@ -172,3 +172,5 @@ from django.contrib import messages
 MESSAGE_TAGS = {
     messages.ERROR:'danger'
 }
+
+CSRF_TRUSTED_ORIGINS = ['https://web-production-91ae.up.railway.app/']
